@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = initializeApp({
     apiKey: "AIzaSyDVadSaDsMoiJMD0cEVNc8-JoijeHLemjY",
     authDomain: "quiz-5e7dc.firebaseapp.com",
+    databaseURL: "https://quiz-5e7dc-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "quiz-5e7dc",
     storageBucket: "quiz-5e7dc.appspot.com",
     messagingSenderId: "525694373210",
